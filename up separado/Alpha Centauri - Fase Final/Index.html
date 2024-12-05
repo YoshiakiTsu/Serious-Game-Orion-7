@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <title>Alpha Centauri</title>
+    <style>
+        body {
+    background-color: #000000;
+}
+    </style>
+    <script>
+        function verificarResposta() {
+            var resposta = document.getElementById("resposta").value;
+            if (resposta === "maisproximaaosol") {
+                window.location.href = "final.html"; 
+            } 
+            else {
+                alert("Resposta incorreta. Tente novamente.");
+            }
+        }
+    </script>
+    <script>
+        function verificarResposta() {
+            var resposta = document.getElementById("resposta").value;
+            if (resposta === "Maisproximaaosol") {
+                window.location.href = "final.html"; 
+            } 
+            else {
+                alert("Resposta incorreta. Tente novamente.");
+            }
+        }
+    </script>
+    <script>
+        function verificarResposta() {
+            var resposta = document.getElementById("resposta").value;
+            if (resposta === "mais proxima ao sol") {
+                    window.location.href = "final.html"; 
+            } 
+            else {
+                alert("Resposta incorreta. Tente novamente.");
+            }
+        }
+        </script>
+</head>
+    <body>
+        
+    <div class="body-texto1">
+        <h1>Alpha Centauri - Fase Final</h1>             
+    </div>
+
+    <div class="body-enunciado">
+        <h3>hej? Kio faras ĝin grava?</h3>
+    </div>
+
+    <div class="body-image">
+        <img src="uma estrela realista no espaço.png" height="300px" width="400px" alt="">
+    </div>
+
+    <div class="body-texto1">        
+        <h3>Digite a resposta correta para ser redirecionado:</h3>
+        <p>se precisar da dica, passe o mouse sobre a tela (selecionando as palavras)</p>
+        <input type="text" id="resposta" placeholder="Digite a resposta aqui">
+        <button onclick="verificarResposta()">Verificar</button>   
+    </div>
+                          
+    </body>
+
+    <footer>
+
+        <div class="body-textooculto">
+            <h6>Dica: ela é a estrela mais? vamos lá nem precisava de dica</h6>
+        </div>
+        <div class="body-foot">
+            <h6>@Leonamtsutsumi ;)</h6>
+        </div>
+    
+    </footer>

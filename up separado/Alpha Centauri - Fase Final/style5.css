@@ -1,0 +1,55 @@
+.body-texto1{
+    font-style: italic;
+    color: aliceblue;
+    text-align: center;
+}
+
+.body-textooculto{
+    font-style: italic;
+    color: black;
+    text-align: end;
+}
+
+.body-textooculto2{
+    font-style: italic;
+    color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.body-historia{
+    color: aliceblue;
+}
+
+.body-dica{
+    color: aliceblue;
+    text-align: end;
+}
+.body-enunciado{
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+}
+
+.body-enigma{ 
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+}
+
+.body-auxilio{
+    color: aliceblue;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+.body-foot{
+    color: aliceblue;
+    text-align: end;
+}
+
+.body-image{
+    text-align: center;
+}
