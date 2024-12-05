@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>thefirstmessage</title>
+    <style>
+        body {
+    background-color: #000000;
+}
+    </style>
+    <script>
+        function verificarResposta() {
+            var resposta = document.getElementById("resposta").value;
+            if (resposta === "Ganimedes") {
+                window.location.href = "stellarrefuge.html"
+            }
+            else {
+                alert("Resposta incorreta. Tente novamente.");
+            }
+        }
+    </script>
+    <script>
+        function verificarResposta() {
+            var resposta = document.getElementById("resposta").value;
+            if (resposta === "ganimedes") {
+                window.location.href = "stellarrefuge.html"
+            }
+            else {
+                alert("Resposta incorreta. Tente novamente.");
+            }
+        }
+    </script>
+    
+    <body>
+    <div class="body-texto1">
+        <h1>The first message</h1>
+    </div>   
+    <div class="body-historia">
+        <p>
+            No ano de 2437, a humanidade conquistou os confins mais distantes da galáxia. Através de tecnologias avançadas e naves interplanetárias, colonizaram planetas em sistemas estelares desconhecidos. Contudo, uma expedição espacial, a Orion 7, que partiu para explorar uma galáxia distante, desapareceu misteriosamente sem deixar rastros. Durante anos, a missão parecia perdida para sempre, até que um sinal fraco foi detectado por um observatório no Sistema Solar.
+            Você, um talentoso explorador, foi convocado pela Nasa para investigar essa mensagem. Ao decifrar o código transmitido pela Orion 7, você descobrirá pistas sobre o que aconteceu com a tripulação e o destino sombrio que aguarda a galáxia. Sua missão é decifrar os enigmas e encontrar o que restou da Orion 7, antes que uma grande ameaça se espalhe por toda a galáxia.
+        </p>
+    </div>
+    
+    <div class="body-img">
+        <img src="uma base espacial recebendo sinal.png" height="300px" width="400px" alt="">
+    </div>
+       
+    <div class="body-historia">
+        <p>O Enigma:</p>
+        <p>Você recebe uma transmissão que, aparentemente, é uma mistura de números, letras e símbolos alienígenas. Sua missão é desvendar o código para entender a mensagem e localizar a nave desaparecida. A criptografia que você deve resolver é uma sequência de códigos alfanuméricos com diferentes níveis de dificuldade. Cada enigma resolvido revela mais pistas sobre o que aconteceu na Orion 7.</p>
+        <p>Você recebe uma mensagem codificada: iq vq vjg ugxgpvj gngogpv qh lwrkvgt - vitas (2 é o seu caminho)</p>
+    </div>
+
+    <div class="body-dica">
+        <h6>caso precise da dica, passe o mouse em toda a tela e selecione as palavras, magicamente ela aparecerá</h6>
+    </div>
+
+    <div class="body-textooculto">
+        <h6>Dica: A mensagem usa uma cifra de César, com um deslocamento de 2 posições.</h6>
+    </div>
+    
+    <div class="body-texto1">        
+        <h3>Digite a resposta correta aqui:</h3>
+        <h4>obs: coloque a mensagem sem espaçamento ;)</h4>
+        <input type="text" id="resposta" placeholder="Digite a resposta aqui">
+        <button onclick="verificarResposta()">Verificar</button>   
+    </div>
+
+      
+    
+
+   
+  </body>
